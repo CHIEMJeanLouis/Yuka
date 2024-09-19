@@ -2,6 +2,7 @@
   "expo": {
     "name": "Yuka",
     "slug": "Yuka",
+    "scheme": "Yuka",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -9,7 +10,15 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#ffffff",
+      "plugins": [
+        [
+          "expo-barcode-scanner",
+          {
+            "cameraPermission": "Allow $(PRODUCT_NAME) to access camera."
+          }
+        ]
+      ]
     },
     "ios": {
       "supportsTablet": true
