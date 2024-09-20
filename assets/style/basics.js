@@ -12,6 +12,16 @@ const styles = StyleSheet.create({
     objectFit: "scale-down",
   },
 
+  h2Style: {
+    fontSize: 22,
+    fontWeight: "600",
+  },
+
+  h3Style: {
+    fontSize: 20,
+    fontWeight: "500",
+  },
+
   touchableStyle: {
     borderStyle: "solid",
     borderColor: "#00DB5F",
@@ -29,8 +39,28 @@ const styles = StyleSheet.create({
   },
 
   imageProduct: {
-    width: 50,
-    height: 80,
+    width: 100,
+    height: 150,
+  },
+
+  scoreRed: {
+    width: 10,
+    height: 10,
+    borderRadius: 100,
+    backgroundColor: "red",
+  },
+
+  scoreOrange: {
+    width: 10,
+    height: 10,
+    borderRadius: 100,
+    backgroundColor: "orange",
+  },
+  scoreGreen: {
+    width: 10,
+    height: 10,
+    borderRadius: 100,
+    backgroundColor: "green",
   },
 });
 

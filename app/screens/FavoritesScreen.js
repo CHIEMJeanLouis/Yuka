@@ -1,11 +1,4 @@
-import {
-  Text,
-  View,
-  Image,
-  SafeAreaView,
-  StyleSheet,
-  TouchableOpacity,
-} from "react-native";
+import { Text, View, SafeAreaView } from "react-native";
 import { router } from "expo-router";
 import styles from "../../assets/style/basics";
 
